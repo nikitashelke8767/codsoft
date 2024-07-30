@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="codsoft.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body, html {
+            margin: 0;
+            padding: 0;
+            color: rgb(37, 37, 99);
+            font-family: Arial, sans-serif;
+        }
+        #first, #second {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 30px auto;
+            width: 50%;
+        }
+        div {
+            background-color: rgba(206, 247, 241, 255);
+            width: 60%;
+            margin: 0 auto;
+        }
+        hr {
+            width: 60%;
+            margin: 0 auto;
+            height: 5%;
+        }
+        button {
+            width: 300px;
+            height: 40px;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            display: block;
+            margin: 10px auto;
+            border-radius: 10px;
+            color: rgb(29, 29, 81);
+            background-color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: rgba(14, 216, 224, 255);
+        }
+        button:active {
+            background-color: blue;
+        }
+        .grid-container {
+            display: grid;
+            gap: 10px;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .grid-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #shoe {
+            margin-left: 100px;
+            margin-bottom: 100px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div id="first">
+            <p>Question 6/13</p>
+        </div>
+        <br>
+        <div id="second">
+            <p>HAVE YOU PRACTICED SPORT OR ANY PHYSICAL 
+                <br>
+                ACTIVITY OUT OF YOUR WORKING HOURS AT LEAST
+                <br>
+                30 MIN OR MORE DURING THE LAST MONTH?
+            </p>
+        </div>   
+        <br>
+        <hr>
+        <div id="third">
+            <button id="one">3 times or more per week</button>
+            <button id="two">1 or 2 times per week</button> 
+            <button id="three">less than 4 times per week</button>
+            <button id="four">I don't practice sport during the month</button>
+        </div>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img width="150px" src="plantt.jpg">
+                <img id="shoe" width="150" src="shoess.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
